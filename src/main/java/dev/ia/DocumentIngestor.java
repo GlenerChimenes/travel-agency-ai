@@ -25,12 +25,17 @@ public class DocumentIngestor {
     @Inject
     EmbeddingModel embeddingModel;
 
-    public void onStart(@Observes StartupEvent event) {
-        Document document = FileSystemDocumentLoader.loadDocument(
-                Paths.get("src/main/resources/rag/pacotes-viagem.md")
-        );
+//    public void onStart(@Observes StartupEvent event) {
+//        System.out.println("INGESTOR RODANDO");
+//        Document document = FileSystemDocumentLoader.loadDocument(
+//                Paths.get("src/main/resources/rag/pacotes-viagem.md")
+//        );
 
-        document.metadata().put("type", "packages");
+      //  document.metadata().put("type", "packages");
+      public void ingest() {
+          Document document = FileSystemDocumentLoader.loadDocument(
+                  Paths.get("src/main/resources/rag/pacotes-viagem.md")
+          );
 
         DocumentSplitter splitter = DocumentSplitters.recursive(200, 20);
 

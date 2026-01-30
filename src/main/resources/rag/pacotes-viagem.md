@@ -1,3 +1,8 @@
+### Pacote para Tailândia
+* Duração: 4 dias e 6 noites.
+* Atividades: Caminhada vendo elegantes, visitar academias de Muay thai.
+* Política de cancelamento: Reembolso de 80% com 30 dias de antecedência.
+* Preço: R$ 3.00,00 por pessoa.
 ### Pacote Aventura Amazônia
 * Duração: 7 dias e 6 noites.
 * Atividades: Focagem noturna de jacarés, caminhada na selva, visita a comunidades ribeirinhas.
@@ -8,3 +13,4 @@
 * Atividades: Visita às pirâmides de Gizé, cruzeiro no Nilo, tour pelo Museu do Cairo.
 * Política de cancelamento: Reembolso de 50% com 30 dias de antecedência.
 * Preço: R$ 12.800,00 por pessoa.
+
